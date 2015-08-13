@@ -1,0 +1,24 @@
+{
+  "name": "pictionary",
+  "version": "0.0.1",
+  "description": "Realtime Pictionary",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfeb26/Pictionary.git"
+  },
+  "author": "Jason Stinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsfeb26/Pictionary/issues"
+  },
+  "homepage": "https://github.com/jsfeb26/Pictionary#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  }
+}
